@@ -15,7 +15,7 @@ SPRENT builds market-making desks on Solana. A desk holds depositor capital in a
 <p>
   <a href="https://sprent.pro/"><img src="https://img.shields.io/badge/Website-sprent.pro-C2F143?style=flat-square&amp;labelColor=101113" alt="Website: sprent.pro"></a>
   <a href="https://x.com/sprent_pro"><img src="https://img.shields.io/badge/X-%40sprent__pro-101113?style=flat-square" alt="X: @sprent_pro"></a>
-  <a href="https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet"><img src="https://img.shields.io/badge/Network-devnet-C2F143?style=flat-square&amp;labelColor=101113" alt="Live on Solana devnet"></a>
+  <a href="https://solscan.io/account/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g"><img src="https://img.shields.io/badge/Network-mainnet-C2F143?style=flat-square&amp;labelColor=101113" alt="Live on Solana mainnet"></a>
   <a href="https://github.com/sprentpro/sprent-vault"><img src="https://img.shields.io/badge/Source-sprent--vault-101113?style=flat-square" alt="Source: sprent-vault"></a>
   <a href="https://github.com/sprentpro/sprent-vault/blob/main/VERIFY.md"><img src="https://img.shields.io/badge/Read-verification-F5F4EE?style=flat-square&amp;labelColor=101113" alt="Verification record"></a>
   <a href="https://github.com/sprentpro/sprent-vault/actions/workflows/ci.yml"><img src="https://github.com/sprentpro/sprent-vault/actions/workflows/ci.yml/badge.svg" alt="Build and tests"></a>
@@ -30,13 +30,13 @@ SPRENT builds market-making desks on Solana. A desk holds depositor capital in a
 
 **Settlement has a record.** Epoch close reconciles the venue and vault balances before pricing shares. Performance fees use each depositor's own high-water mark; withdrawals follow the queue and cooldown.
 
-## Live on devnet
+## Live on mainnet
 
-The [SPRENT site](https://sprent.pro/) and workers are connected to the current devnet program. Mainnet deployment is pending.
+The [SPRENT site](https://sprent.pro/) and workers are connected to the mainnet program.
 
 `GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g`
 
-[View the devnet program on Solana Explorer](https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet) · [Deployment notes](https://github.com/sprentpro/sprent-vault#deployment-status)
+[View the mainnet program on Solscan](https://solscan.io/account/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g) · [Deployment notes](https://github.com/sprentpro/sprent-vault#deployment-status)
 
 ## Open source
 
@@ -44,7 +44,7 @@ The [SPRENT site](https://sprent.pro/) and workers are connected to the current 
 | :--- | :--- |
 | **[sprentpro/sprent-vault](https://github.com/sprentpro/sprent-vault)** | Anchor vault program, Manifest integration, TypeScript accounting library, interface definition and tests. |
 
-Start with the [architecture and build guide](https://github.com/sprentpro/sprent-vault#architecture), or inspect the [verification record](https://github.com/sprentpro/sprent-vault/blob/main/VERIFY.md). The repository is a source snapshot; it does not claim byte-for-byte parity with a live deployment.
+Start with the [architecture and build guide](https://github.com/sprentpro/sprent-vault#architecture), or inspect the [verification record](https://github.com/sprentpro/sprent-vault/blob/main/VERIFY.md). The verification record includes the deployed executable hash, its comparison with the release artifact and instructions for rebuilding from public source.
 
 ## Follow the work
 
