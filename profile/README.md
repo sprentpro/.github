@@ -12,10 +12,10 @@ SPRENT builds market-making desks on Solana. A desk holds depositor capital in a
   <a href="https://sprent.pro/"><img src="https://img.shields.io/badge/Website-sprent.pro-C2F143?style=flat-square&amp;labelColor=101113" alt="Website: sprent.pro"></a>
   <a href="https://x.com/sprent_pro"><img src="https://img.shields.io/badge/X-%40sprent__pro-101113?style=flat-square" alt="X: @sprent_pro"></a>
   <a href="https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet"><img src="https://img.shields.io/badge/Network-devnet-C2F143?style=flat-square&amp;labelColor=101113" alt="Live on Solana devnet"></a>
-  <a href="https://github.com/sprent-pro/sprent"><img src="https://img.shields.io/badge/Source-sprent-101113?style=flat-square" alt="Source: sprent"></a>
-  <a href="https://github.com/sprent-pro/sprent/blob/main/VERIFY.md"><img src="https://img.shields.io/badge/Read-verification-F5F4EE?style=flat-square&amp;labelColor=101113" alt="Verification record"></a>
-  <a href="https://github.com/sprent-pro/sprent/actions/workflows/ci.yml"><img src="https://github.com/sprent-pro/sprent/actions/workflows/ci.yml/badge.svg" alt="Build and tests"></a>
-  <a href="https://github.com/sprent-pro/sprent/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-101113?style=flat-square" alt="MIT license"></a>
+  <a href="https://github.com/sprentpro/sprent-vault"><img src="https://img.shields.io/badge/Source-sprent--vault-101113?style=flat-square" alt="Source: sprent-vault"></a>
+  <a href="https://github.com/sprentpro/sprent-vault/blob/main/VERIFY.md"><img src="https://img.shields.io/badge/Read-verification-F5F4EE?style=flat-square&amp;labelColor=101113" alt="Verification record"></a>
+  <a href="https://github.com/sprentpro/sprent-vault/actions/workflows/ci.yml"><img src="https://github.com/sprentpro/sprent-vault/actions/workflows/ci.yml/badge.svg" alt="Build and tests"></a>
+  <a href="https://github.com/sprentpro/sprent-vault/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-101113?style=flat-square" alt="MIT license"></a>
 </p>
 
 ## The desk
@@ -32,16 +32,16 @@ The [SPRENT site](https://sprent.pro/) and workers are connected to the current 
 
 `GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g`
 
-[View the devnet program on Solana Explorer](https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet) · [Deployment notes](https://github.com/sprent-pro/sprent#deployment-status)
+[View the devnet program on Solana Explorer](https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet) · [Deployment notes](https://github.com/sprentpro/sprent-vault#deployment-status)
 
 ## Open source
 
 | Repository | What's inside |
 | :--- | :--- |
-| **[sprent-pro/sprent](https://github.com/sprent-pro/sprent)** | Anchor vault program, Manifest integration, TypeScript accounting library, interface definition and tests. |
+| **[sprentpro/sprent-vault](https://github.com/sprentpro/sprent-vault)** | Anchor vault program, Manifest integration, TypeScript accounting library, interface definition and tests. |
 
-Start with the [architecture and build guide](https://github.com/sprent-pro/sprent#architecture), or inspect the [verification record](https://github.com/sprent-pro/sprent/blob/main/VERIFY.md). The repository is a source snapshot; it does not claim byte-for-byte parity with a live deployment.
+Start with the [architecture and build guide](https://github.com/sprentpro/sprent-vault#architecture), or inspect the [verification record](https://github.com/sprentpro/sprent-vault/blob/main/VERIFY.md). The repository is a source snapshot; it does not claim byte-for-byte parity with a live deployment.
 
 ## Follow the work
 
-[Visit SPRENT](https://sprent.pro/) · [Updates on X](https://x.com/sprent_pro) · [Report a bug](https://github.com/sprent-pro/sprent/issues) · [Security policy](https://github.com/sprent-pro/sprent/blob/main/SECURITY.md)
+[Visit SPRENT](https://sprent.pro/) · [Updates on X](https://x.com/sprent_pro) · [Report a bug](https://github.com/sprentpro/sprent-vault/issues) · [Security policy](https://github.com/sprentpro/sprent-vault/blob/main/SECURITY.md)
