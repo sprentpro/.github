@@ -11,6 +11,7 @@ SPRENT builds market-making desks on Solana. A desk holds depositor capital in a
 <p>
   <a href="https://sprent.pro/"><img src="https://img.shields.io/badge/Website-sprent.pro-C2F143?style=flat-square&amp;labelColor=101113" alt="Website: sprent.pro"></a>
   <a href="https://x.com/sprent_pro"><img src="https://img.shields.io/badge/X-%40sprent__pro-101113?style=flat-square" alt="X: @sprent_pro"></a>
+  <a href="https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet"><img src="https://img.shields.io/badge/Network-devnet-C2F143?style=flat-square&amp;labelColor=101113" alt="Live on Solana devnet"></a>
   <a href="https://github.com/sprent-pro/sprent"><img src="https://img.shields.io/badge/Source-sprent-101113?style=flat-square" alt="Source: sprent"></a>
   <a href="https://github.com/sprent-pro/sprent/blob/main/VERIFY.md"><img src="https://img.shields.io/badge/Read-verification-F5F4EE?style=flat-square&amp;labelColor=101113" alt="Verification record"></a>
   <a href="https://github.com/sprent-pro/sprent/actions/workflows/ci.yml"><img src="https://github.com/sprent-pro/sprent/actions/workflows/ci.yml/badge.svg" alt="Build and tests"></a>
@@ -24,6 +25,14 @@ SPRENT builds market-making desks on Solana. A desk holds depositor capital in a
 **Orders have limits.** Post-only execution, oracle price bands, inventory caps and an epoch loss limit constrain quoting. A halted desk can only reduce inventory.
 
 **Settlement has a record.** Epoch close reconciles the venue and vault balances before pricing shares. Performance fees use each depositor's own high-water mark; withdrawals follow the queue and cooldown.
+
+## Live on devnet
+
+The [SPRENT site](https://sprent.pro/) and workers are connected to the current devnet program. Mainnet deployment is pending.
+
+`GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g`
+
+[View the devnet program on Solana Explorer](https://explorer.solana.com/address/GnfjrTU3LuytJm1BSLVWvBM721Jvs1dTQBa4aWAMUw3g?cluster=devnet) · [Deployment notes](https://github.com/sprent-pro/sprent#deployment-status)
 
 ## Open source
 
