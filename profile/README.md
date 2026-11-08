@@ -2,6 +2,10 @@
   <a href="https://sprent.pro/"><img src="assets/sprent.png" alt="SPRENT — on-chain market-making vault for Solana order books" width="100%"></a>
 </p>
 
+<p align="center">
+  <strong>CA:</strong> <a href="https://solscan.io/token/K8gETh1jTeAtMPKYyid5vFY5LrNLSNW6Yd1QZ1wpump"><code>K8gETh1jTeAtMPKYyid5vFY5LrNLSNW6Yd1QZ1wpump</code></a>
+</p>
+
 # SPRENT
 
 **Put capital on the other side of the order book.**
